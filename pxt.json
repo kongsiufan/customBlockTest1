@@ -1,0 +1,23 @@
+{
+    "name": "test2",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "test1": "github:kongsiufan/lelemicrobit_01#master"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py",
+        "custom.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
